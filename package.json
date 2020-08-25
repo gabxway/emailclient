@@ -1,0 +1,26 @@
+{
+  "name": "emailclient",
+  "version": "1.0.0",
+  "description": "Fake REST API for testing",
+  "main": "email.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "espress": "0.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "handlebars": "^4.7.6",
+    "nodemailer": "^6.4.11"
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\""
+  },
+  "keywords": [],
+  "author": "©GABX",
+  "license": "ISC"
+}
